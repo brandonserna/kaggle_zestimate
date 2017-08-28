@@ -1,6 +1,31 @@
 # Zillow Prize: Zillow's Home Value Prediction (Zestimate)
 
-Workflow for the Kaggle competition Zillow Prize using GBM methods (XGBoost and LightGBM). 
+Workflow for the Kaggle competition Zillow Prize using GBM methods (XGBoost and LightGBM).
+
+### Files
+
+```sh
+├── input
+│   ├── properties_2016.csv
+│   ├── train_2016_v2.csv
+│   └── zillow_data_dictionary.xlsx
+├── notebooks
+│   ├── eda.ipynb
+│   ├── full_model.ipynb
+│   ├── parameter_tuning_localCV.ipynb
+│   └── xgboost.ipynb
+├── readme.md
+└── submissions
+    ├── submission.csv
+```
+
+### Requirements
+
+I did all development with cpu versions of XGBoost and LightGBM using python 3.6. Please refer to a version of the ```requirements.txt``` file with versions of packages that should work with these notebooks.
+
+### Data 
+
+For the paths in the notebooks the data collected from the Kaggle download should be saved in a ```input/``` directory as is. 
 
 ### Resources 
 
